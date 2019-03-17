@@ -74,5 +74,5 @@ function deleteDirectory($dir) { // function for deleting non-empty directories.
     return rmdir($dir);
 }
 $dir = 'tmp';
-// deleteDirectory($dir);
+// deleteDirectory($dir); //not deleting right now. Integration still incomplete
 ?>
